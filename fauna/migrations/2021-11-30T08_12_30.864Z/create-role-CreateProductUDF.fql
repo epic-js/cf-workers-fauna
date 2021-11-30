@@ -1,0 +1,9 @@
+CreateRole({
+  "name": "CreateProductUDF",
+  "privileges": [{
+    "resource": Collection("Products"),
+    "actions": {
+      "create": true
+    }
+  }]
+})

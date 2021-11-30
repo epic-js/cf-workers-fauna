@@ -1,0 +1,9 @@
+CreateRole({
+  "name": "GetProductUDF",
+  "privileges": [{
+    "resource": Collection("Products"),
+    "actions": {
+      "read": true
+    }
+  }]
+})

@@ -1,0 +1,9 @@
+CreateRole({
+  "name": "DeleteProductUDF",
+  "privileges": [{
+    "resource": Collection("Products"),
+    "actions": {
+      "delete": true
+    }
+  }]
+})

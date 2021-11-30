@@ -1,0 +1,14 @@
+name = "my-fauna-api"
+type = "javascript"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-11-30"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"
